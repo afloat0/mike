@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>CALL AFLOAT</title>
+
+<meta charset="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="Bee corp">
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="">
+<link>
+
+<style>
+body{
+margin:0;
+padding:0;
+font-family:Arial,sans-serif;
+width:100%;
+max-width:1000px;
+margin:0 auto;
+}
+#container{
+max-width:1000px;
+margin:0 auto;
+}
+</style>
+
+</head>
+<body>
+
+<!--container start-->
+<div id="container">
+  
+  
+  <!--nav start-->
+  <style>
+  
+  </style>
+  <div id="nav">
+  
+  <!--title start-->
+  <div id="title">
+  <img src="IMG-20220723-WA0006.jpg">
+  <h1>afloat</h1>
+  </div>
+  <!--title end-->
+  
+  <!--nav bars starr-->
+  <div id="nav-btns">
+  
+  <!--search btn start-->
+  <button style="display:none;" id="search_btn">
+  <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0a5.5 5.5 0 0 1 11 0z"/></svg>
+  </button>
+  <!--search btn end-->
+  
+  <!--account btn start-->
+  <button style="display:none;" id="acc_btn">
+  <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="black" d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001c0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"/></svg>
+  </button>
+  <!--account btn end-->
+  
+  <!--shop btn start-->
+  <button style="display:none;" id="shop_btn">
+  <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M37 22v15m-26 0v7h26v-7m-26 0H4V22c0-3 2-6.5 5-9s7-3 7-3l8 8M11 37V22m26 15h7V22c0-3-2-6.5-5-9s-7-3-7-3l-8 8m0 0v9"/><path d="M9 13c3-2.5 7-3 7-3l8 8l8-8s4 .5 7 3l2-4.5L39 4H9L7 8.5L9 13Z"/></g></svg>
+  </button>
+  <!--shop btn end-->
+  
+  <!--menu bts start-->
+  <button id="menu_btn" onclick="showNav()">
+  <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><rect width="18" height="2" x="3" y="11" fill="currentColor" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="16" fill="currentColor" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="6" fill="currentColor" rx=".95" ry=".95"/></svg>
+  </button>
+  <!--menu btn end-->
+  
+  <!--cancel btn start-->
+  <button style="display:none;" id="cancel_btn" onlick="hideNav()">
+  <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.758 17.243L12.001 12m5.243-5.243L12 12m0 0L6.758 6.757M12.001 12l5.243 5.243"/></svg>
+  </button>
+  <!--cancel btn end-->
+  
+  </div>
+  <!--nav bars end-->
+  
+  </div>
+  <!--nav end-->
+  
+  
+  <!--call cont start-->
+  <style>
+   #call_cont{
+    max-width:1000px;
+    margin:0 auto;
+    padding:20;
+    box-shadow: 5px 5px 5px gray;
+   }#call_cont h3{
+    text-align:center;
+    font-size:1rem;
+    font-family:cursive;
+    color:gray;
+    text-transform:uppercase;
+   }#call_cont p{
+    max-width:800px;
+    font-family:Courier new,monospace;
+    font-size:1rem;
+    
+   }#call_cont #wrape-call{
+    max-width:350px;
+    margin:0 auto;
+    box-shadow:  gray;
+    padding:5;
+   }#call_cont #wrape-call img{
+    width:100%;
+   }#call_cont #wrape-call #btns{
+    display:flex;
+    justify-content:center;
+   }#call_cont #wrape-call #btns button{
+    width:80px;
+    height:50px;
+    margin-right:5;
+    margin-left:5;
+    background:gray;
+    border:0px;
+    outline:none;
+    border-radius:5px;
+   }#call_cont #wrape-call #btns button span{
+    font-size:10px;
+    color:white;
+   }#call_cont #wrape-call #btns button svg{
+    font-size:25px;
+   }
+  </style>
+   <div id="call_cont">
+   
+    <h3>thank you!</h3>
+    <p>
+    We are honored for staying with
+    us untill this point, we hope you will
+    continue to order on <u>Afloat</u> 
+    your favourite clothing store,
+    <b>please visit again</b>. This is
+    the last step, Afloat has to receive 
+    you call now.
+    
+    </p>
+    
+   <div id="wrape-call">
+    <img src="IMG-20220723-WA0006.jpg">
+    
+    <div id="btns">
+     
+     <a href="tel:0977606404" >
+      <button>
+       <svg  aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="white" fill-rule="evenodd" d="M12.547 9.328a1.567 1.567 0 0 0-.594-.117a1.202 1.202 0 0 0-.555.101a2.762 2.762 0 0 0-.43.258a2.166 2.166 0 0 0-.359.328c-.104.12-.205.23-.304.329a2.409 2.409 0 0 1-.29.25a.534.534 0 0 1-.695-.063a32.17 32.17 0 0 1-.328-.312c-.14-.136-.312-.3-.515-.493A61.776 61.776 0 0 1 7.844 9l-.68-.664a25.847 25.847 0 0 1-1.21-1.266a5.312 5.312 0 0 1-.391-.484c-.094-.135-.141-.234-.141-.297a.46.46 0 0 1 .101-.312c.073-.094.16-.19.258-.29c.1-.098.209-.203.328-.312c.12-.11.23-.227.329-.352c.098-.125.182-.268.25-.43c.067-.16.101-.343.101-.546a1.567 1.567 0 0 0-.453-1.102a7.604 7.604 0 0 1-.531-.578a6.487 6.487 0 0 0-.617-.64a4.207 4.207 0 0 0-.696-.516A1.46 1.46 0 0 0 3.742 1a1.567 1.567 0 0 0-1.101.453c-.271.271-.508.513-.711.727a4.006 4.006 0 0 0-.516.664a2.63 2.63 0 0 0-.312.765A4.39 4.39 0 0 0 1 4.625c0 .552.089 1.125.266 1.719c.177.593.416 1.185.718 1.773c.302.589.67 1.167 1.102 1.735c.432.567.901 1.106 1.406 1.617c.505.51 1.042.982 1.61 1.414c.567.432 1.148.805 1.742 1.117c.593.313 1.19.557 1.789.734a6.157 6.157 0 0 0 1.75.266a4.696 4.696 0 0 0 1.008-.11a2.59 2.59 0 0 0 .773-.312c.23-.14.45-.312.664-.515c.214-.204.453-.438.719-.704A1.568 1.568 0 0 0 15 12.257a2.009 2.009 0 0 0-.102-.515a1.674 1.674 0 0 0-.257-.484a7.24 7.24 0 0 0-.368-.445a5.381 5.381 0 0 0-.421-.422a91.549 91.549 0 0 0-.43-.383a8.277 8.277 0 0 1-.367-.344a1.516 1.516 0 0 0-.508-.336zm-.367 4.586a3.13 3.13 0 0 1-.797.086a5.526 5.526 0 0 1-1.516-.242a8.362 8.362 0 0 1-1.586-.664a13.205 13.205 0 0 1-3.047-2.297a17.15 17.15 0 0 1-1.289-1.461a10.502 10.502 0 0 1-1.03-1.578a9.12 9.12 0 0 1-.673-1.61A5.308 5.308 0 0 1 2 4.602a3.34 3.34 0 0 1 .094-.79c.057-.218.143-.414.258-.585c.114-.172.255-.339.421-.5c.167-.162.357-.35.57-.563a.542.542 0 0 1 .4-.164c.062-.005.158.036.288.125c.13.089.271.195.422.32a7.058 7.058 0 0 1 .899.899c.125.15.229.289.312.414c.083.125.125.221.125.289a.429.429 0 0 1-.101.312c-.073.084-.16.18-.258.29c-.1.109-.209.213-.328.312c-.12.099-.23.216-.329.351a2.266 2.266 0 0 0-.25.438a1.345 1.345 0 0 0-.101.54c.005.213.047.413.125.6c.078.188.19.355.336.5l3.726 3.727a1.527 1.527 0 0 0 1.102.46a1.2 1.2 0 0 0 .547-.1a2.414 2.414 0 0 0 .789-.586c.11-.12.21-.23.305-.329c.093-.098.19-.182.289-.25a.545.545 0 0 1 .312-.101c.073 0 .172.042.297.125c.125.083.263.19.414.32c.151.13.307.274.469.43c.161.156.305.312.43.469c.124.156.229.297.312.422c.083.125.125.22.125.289a.533.533 0 0 1-.164.39c-.224.219-.414.41-.57.57a3.159 3.159 0 0 1-.5.422a1.93 1.93 0 0 1-.586.266zM15 1.704l-4.64 4.648h3.288v1h-5v-5h1V5.64L14.297 1l.703.703z" clip-rule="evenodd"/></svg>       
+        <br>
+       <span>call</span>
+      </button>
+     </a>
+     
+     <a href="sms:0977606404" >
+      <button>
+       <svg  aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="white" d="M464 512a48 48 0 1 0 96 0a48 48 0 1 0-96 0zm200 0a48 48 0 1 0 96 0a48 48 0 1 0-96 0zm-400 0a48 48 0 1 0 96 0a48 48 0 1 0-96 0zm661.2-173.6c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 0 0-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 0 0-142 96.5c-40.9 41.3-73 89.3-95.2 142.8c-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 0 0 112 714v152a46 46 0 0 0 46 46h152.1A449.4 449.4 0 0 0 510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 0 0 142.8-95.2c41.3-40.9 73.8-88.7 96.5-142c23.6-55.2 35.6-113.9 35.9-174.5c.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8c69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9c44.6 18.7 84.6 45.6 119 80c34.3 34.3 61.3 74.4 80 119c19.4 46.2 29.1 95.2 28.9 145.8c-.6 99.6-39.7 192.9-110.1 262.7z"/></svg>
+       <br>
+       <span>messgae</span>
+      </button>
+     </a>
+     
+     <a href="mailto:mikechavuma51@gmail.com" >
+      <button>
+       <svg  aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="white" d="M33.68 15.26H32v11.45l-7.36-7.36l-1.41 1.41L30.46 28H5.66l7-7.24l-1.44-1.39L4 26.84V9.52l12.43 12.37a2 2 0 0 0 2.82 0l6.66-6.63h-2.83l-5.24 5.21L5.31 8h14.75l1.15-2H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V15.24Z" class="clr-i-outline--alerted clr-i-outline-path-1--alerted"/><path fill="white" d="m26.85 1l-5.72 9.91a1.28 1.28 0 0 0 1.1 1.91h11.45a1.28 1.28 0 0 0 1.1-1.91L29.06 1a1.28 1.28 0 0 0-2.21 0Z" class="clr-i-outline--alerted clr-i-outline-path-2--alerted clr-i-alert"/><path fill="none" d="M0 0h36v36H0z"/></svg>      
+      <br>
+      <span>email</span>
+      </button>
+     </a>
+     
+    </div>
+   </div>
+   
+   
+   </div>
+  <!--call cont end-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<!--bottom nav start-->
+<style>
+
+</style>
+<div id="bottom-nav">
+
+<button style="background:#3B579B;">
+<svg  aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="#3B579B" d="M256 128C256 57.308 198.692 0 128 0C57.308 0 0 57.307 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.347-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.958 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445"/><path fill="#FFF" d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.959 128.959 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165h29.825"/></svg>
+</button>
+
+
+<button style="background:#56ABEE;">
+<svg  aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="white" d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003Z"/></svg>
+</button>
+
+
+<button style="background:#0077B5;">
+<svg  aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><mask id="svgIDa"><g fill="#fff" stroke="#fff" stroke-width="4"><circle cx="9" cy="8" r="4"/><path stroke-linejoin="round" d="M5 18h8v25H5zm16 9.5V43h7V29c0-2.5 1.5-4.5 4-4.5s4 2.5 4 4.5v14h7V27.5c0-3-3.5-9.5-11-9.5s-11 6.5-11 9.5Z"/></g></mask><path fill="white" d="M0 0h48v48H0z" mask="url(#svgIDa)"/></svg>
+</button>
+
+
+<button style="background:#55EB4C">
+<svg  aria-hidden="true" role="img" width="0.99em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 259"><path fill="#00E676" d="m67.663 221.823l4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346c61.385 0 111.609-50.224 111.609-111.609c0-29.297-11.859-57.897-32.785-78.824c-20.927-20.927-48.83-32.785-78.824-32.785c-61.385 0-111.61 50.224-110.912 112.307c0 20.926 6.278 41.156 16.741 58.594l2.79 4.186l-11.16 41.156l41.853-10.464Z"/><path fill="#FFF" d="M219.033 37.668C195.316 13.254 162.531 0 129.048 0C57.898 0 .698 57.897 1.395 128.35c0 22.322 6.278 43.947 16.742 63.478L0 258.096l67.663-17.439c18.834 10.464 39.76 15.347 60.688 15.347c70.453 0 127.653-57.898 127.653-128.35c0-34.181-13.254-66.269-36.97-89.986ZM129.048 234.38c-18.834 0-37.668-4.882-53.712-14.648l-4.185-2.093l-40.458 10.463l10.463-39.76l-2.79-4.186C7.673 134.63 22.322 69.058 72.546 38.365c50.224-30.692 115.097-16.043 145.79 34.181c30.692 50.224 16.043 115.097-34.18 145.79c-16.045 10.463-35.576 16.043-55.108 16.043Zm61.385-77.428l-7.673-3.488s-11.16-4.883-18.136-8.371c-.698 0-1.395-.698-2.093-.698c-2.093 0-3.488.698-4.883 1.396c0 0-.697.697-10.463 11.858c-.698 1.395-2.093 2.093-3.488 2.093h-.698c-.697 0-2.092-.698-2.79-1.395l-3.488-1.395c-7.673-3.488-14.648-7.674-20.229-13.254c-1.395-1.395-3.488-2.79-4.883-4.185c-4.883-4.883-9.766-10.464-13.253-16.742l-.698-1.395c-.697-.698-.697-1.395-1.395-2.79c0-1.395 0-2.79.698-3.488c0 0 2.79-3.488 4.882-5.58c1.396-1.396 2.093-3.488 3.488-4.883c1.395-2.093 2.093-4.883 1.395-6.976c-.697-3.488-9.068-22.322-11.16-26.507c-1.396-2.093-2.79-2.79-4.883-3.488H83.01c-1.396 0-2.79.698-4.186.698l-.698.697c-1.395.698-2.79 2.093-4.185 2.79c-1.395 1.396-2.093 2.79-3.488 4.186c-4.883 6.278-7.673 13.951-7.673 21.624c0 5.58 1.395 11.161 3.488 16.044l.698 2.093c6.278 13.253 14.648 25.112 25.81 35.575l2.79 2.79c2.092 2.093 4.185 3.488 5.58 5.58c14.649 12.557 31.39 21.625 50.224 26.508c2.093.697 4.883.697 6.976 1.395h6.975c3.488 0 7.673-1.395 10.464-2.79c2.092-1.395 3.487-1.395 4.882-2.79l1.396-1.396c1.395-1.395 2.79-2.092 4.185-3.487c1.395-1.395 2.79-2.79 3.488-4.186c1.395-2.79 2.092-6.278 2.79-9.765v-4.883s-.698-.698-2.093-1.395Z"/></svg>
+</button>
+
+</div>
+<!--bottom nav end-->
+
+<!--footer start-->
+<style>
+
+</style>
+<footer>
+
+<a href="index.html" >
+Home
+</a>
+
+<br><br>
+
+<a href="#.html" >
+Contact
+</a>
+
+<br><br>
+
+<a href="#.html" >
+About
+</a>
+
+<br><br>
+
+<a href="https://comp-bee.github.io/corp/" >
+Market
+</a>
+
+<br><br>
+
+<b>AFLOAT</b> &copy; <b>2022</b
+
+<br>
+<br>
+
+
+<a href="#" >
+<button id="up-btn">
+<svg  aria-hidden="true" role="img" width="50" height="50" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50"><path fill="white" d="M25 42c-9.4 0-17-7.6-17-17S15.6 8 25 8s17 7.6 17 17s-7.6 17-17 17zm0-32c-8.3 0-15 6.7-15 15s6.7 15 15 15s15-6.7 15-15s-6.7-15-15-15z"/><path fill="white" d="M33.3 26.7L25 18.4l-8.3 8.3l-1.4-1.4l9.7-9.7l9.7 9.7z"/><path fill="white" d="M24 17h2v17h-2z"/></svg>
+</button>
+</a>
+
+</footer>
+<!--footer end-->
+</div>
+<!--container end-->
+
+</body>
+</html>

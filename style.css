@@ -1,0 +1,236 @@
+body{
+margin:0;
+padding:0;
+font-family:Arial,sans-serif;
+}
+#container{
+width:100%;
+max-width:1000px;
+margin:0 auto;
+}
+
+
+#nav{
+  position:relative;
+  background:#FFFFFF;
+  border-bottom:1px solid black;
+ }#nav #title{
+ position:relative;
+ 
+ }#nav #title img{
+  width:100px;
+  border:px solid black;
+ }#nav #title h1{
+  position:absolute;
+  top:15;
+  left:100;
+  padding:0;
+  margin:0;
+  text-transform:uppercase;
+  font-family:cursive;
+  display:non;
+ }#nav #nav-btns{
+ position:absolute;
+ top:10;
+ right:10; 
+ border:0px solid black;
+ }#nav #nav-btns button{
+  background:none;
+  border:0px;
+  ouline:none;
+ }#nav #nav-btns #search_btn svg{
+  font-size:15px;
+ }#nav #nav-btns #acc_btn svg{
+ font-size:15px;
+ }#nav #nav-btns #shop_btn svg{
+ font-size:15px;
+ }#nav #nav-btns #menu_btn svg{
+ font-size:40px;
+ }#nav #nav-btns #cancel_btn svg{
+ font-size:15px;
+ }
+ 
+ 
+ 
+ 
+ #products-wrape{
+   width:;
+   max-width:800px;
+   margin:0 auto;
+   padding:0;
+   margin:;
+   background:;
+   height:;
+  }#products-wrape h2{
+   font-family:cursive;
+   text-align:center;
+   text-transform:uppercase;
+   font-size: 20px;
+  }#products-wrape #pro-wraping{
+   width:150px;
+   padding:;
+   margin:0;
+   border:0px solid black;
+   box-shadow: 5px 5px 5px gray;
+  }#products-wrape #pro-wraping img{
+   width:150px;
+   height:150px;
+  }#products-wrape #pro-wraping b{
+  margin-top:;
+  margin-bottom:;
+  font-size:;
+  
+  }#products-wrape #pro-wraping #N-price{
+   color:red;
+   font-weight:bold;
+   text-transform:uppercase;
+   font-size:10px;
+  }#products-wrape #pro-wraping #O-price{
+   font-weight:bold;
+   text-transform:uppercase;
+   margin-left:1;
+   font-size:10px;
+  }#products-wrape #pro-wraping button{
+   color:white;
+   background:#EA0607;
+   border:0px;
+   width:;
+   height:;
+  }
+ 
+ 
+  #wrape-cont{
+    max-width:800px;
+    margin:0 auto;
+   }#wrape-cont h2{
+    text-align:center;
+    font-family:cursive;
+   }#wrape-cont #wraping{
+    padding:20;
+    display:flex;
+    overflow:auto;
+   }#wrape-cont #wraping #item-cont{
+    width:100px;
+    border:0.5px solid black;
+    border-radius:10px;
+    margin-left:10;
+    box-shadow: 2px 2px 2px gray;
+   }#wrape-cont #wraping #item-cont img{
+    width:100px;
+    height:100px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+   }#wrape-cont #wraping #item-cont #deta{
+    margin:10;
+   }#wrape-cont #wraping #item-cont #deta p{
+    color: blue;
+    font-size: 5;
+   }#wrape-cont #wraping #item-cont #deta b{
+   
+   }#wrape-cont #wraping #item-cont #deta span{
+    font-size:10px;
+   }#wrape-cont #wraping #item-cont #deta i{
+    color:gray;
+   }#wrape-cont #wraping #item-cont a{
+   
+   }#wrape-cont #wraping #item-cont a button{
+    width:100%;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border:0px;
+    color:white;
+    background:green;
+   }
+   
+   
+ 
+ 
+ #show{
+     border: 5px solid gray;
+     width: 50px;
+     height: 50px;
+     margin-top: 80px;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px;
+     border-radius: 100%;
+     margin: ;padding: 0;
+     box-shado: 5px 5px 5px #222;
+     background: ghostwhite;
+     }#show button{
+     width: 120px;
+     background: none;
+     border: 0px;
+     outline: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     display: block;
+     }#show button svg{
+     font-size: 25px;
+     position: absolute;
+     top: 13;
+     left: 2;
+     animation-duration: 5s;
+     animation: svg 2s linear infinite;
+     }@keyframes svg{
+     0%{left: 0;}
+     40%{left: 5;}
+     60%{left: 10;}
+     80%{left: 25;}
+     100%{left: 0;}
+     }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #bottom-nav{
+ max-width:1000px;
+ margin:0 auto;
+ display:flex;
+ justify-content:space-around;
+ padding:0;
+ position:sticky;
+ bottom:0;
+ display:;/*({R})*/
+ }#bottom-nav a{
+ 
+ }#bottom-nav button{
+ width: 100%;
+ height:50px;
+ border:0px;
+ outline:none;
+ }
+ 
+ 
+ footer{
+ max-width: 1000px;
+ margin:0 auto;
+ width:%;
+ background:#3B6978;
+ padding:10;
+ position:relative;
+ color:white;
+ display:;/*({R})*/
+ }footer a{
+ text-decoration:none;
+ color:white;
+ }footer #up-btn{
+ background:none;
+ border:0px;
+ position:absolute;
+ right:10;
+ bottom:10;
+ 
+ }
